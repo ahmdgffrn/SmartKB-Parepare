@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Halaman-1" id="KyvqVy3n9v_lL3j81QMa">
+    <mxGraphModel dx="1027" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-1" target="oBYo5uZnGj0mdDDJJLhv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-25" value="Aktivasi Perangkat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-6">
+          <mxGeometry x="-0.1" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-2" target="oBYo5uZnGj0mdDDJJLhv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-2" target="oBYo5uZnGj0mdDDJJLhv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-26" value="Hasil Pembacaan Sensor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-9">
+          <mxGeometry x="-0.63" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-27" value="Data Siap Dikirim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-9">
+          <mxGeometry x="0.61" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-2" value="Baca Data Sensor" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-3" value="Format data JSON" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-4" target="oBYo5uZnGj0mdDDJJLhv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-28" value="Data JSON (HTTP Request)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-16">
+          <mxGeometry x="-0.0571" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-4" value="Kirim HTTP POST" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-5" value="Teruskan Request ke Server" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="680" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-10" target="oBYo5uZnGj0mdDDJJLhv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-30" value="Data Disimpan dengan&lt;div&gt;Timestamp&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-12">
+          <mxGeometry x="0.144" y="-4" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-10" target="oBYo5uZnGj0mdDDJJLhv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-34" value="Tampilkan Respon Server (Success/Failed)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-17">
+          <mxGeometry x="-0.1032" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-10" value="Terima Data JSON - Validasi Data - Insert/Update database" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-11" target="oBYo5uZnGj0mdDDJJLhv-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="700" />
+              <mxPoint x="820" y="650" />
+              <mxPoint x="965" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-31" value="Select Dtok KB&lt;div&gt;Terbaru&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-20">
+          <mxGeometry x="0.2615" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-11" value="Simpan Data Stok KB" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="700" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-5" target="oBYo5uZnGj0mdDDJJLhv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-29" value="Koneksi Berhasi,&amp;nbsp;&lt;div&gt;Periksa Format dan isi JSON,&lt;/div&gt;&lt;div&gt;Query SQL&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-15">
+          <mxGeometry x="-0.2436" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-19" target="oBYo5uZnGj0mdDDJJLhv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-32" value="Hasil Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-23">
+          <mxGeometry x="-0.0909" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-19" value="Request Data Stok (API call)" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="555" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oBYo5uZnGj0mdDDJJLhv-21" target="oBYo5uZnGj0mdDDJJLhv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-35" value="Selesai" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oBYo5uZnGj0mdDDJJLhv-24">
+          <mxGeometry x="-0.0232" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-21" value="Tampilkan Data Real Time" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oBYo5uZnGj0mdDDJJLhv-22" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="925" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
